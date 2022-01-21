@@ -16,11 +16,11 @@
                                   <a class="font-medium no-underline ml-2 text-blue-500 text-right cursor-pointer">Dont Foregt Image upload!</a>
                               </div>
                               
-                                <div class="grid p-fluid">
+                                <div class="grid p-fluid" v-else>
                                       <div class="col-12 md:col-6">
                                           <div class="p-inputgroup">
                                               <Button label="Left Eye Accuracy"/>
-                                              <InputText :placeholder="status.accuracy.toFixed(2)"/>
+                                              <InputText :placeholder="status.accuracy"/>
                                           </div>
                                       </div>
                                       <div class="col-12 md:col-6">
@@ -32,7 +32,7 @@
                                       <div class="col-12 md:col-6">
                                           <div class="p-inputgroup">
                                               <Button label="Right Eye Accuracy" class="p-button-secondary" />
-                                              <InputText :placeholder="status.accuracy.toFixed(2)"/>
+                                              <InputText :placeholder="status.accuracy"/>
                                           </div>
                                       </div>
                                       <div class="col-12 md:col-6">

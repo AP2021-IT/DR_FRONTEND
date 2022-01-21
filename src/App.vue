@@ -11,9 +11,7 @@
             <Button label="Listings" class="p-button-raised p-button-rounded" />
          </template>
              
-            <template #end>
-               
-            </template>
+         
         </Menubar>
    </div>
    
@@ -81,7 +79,7 @@ export default {
                    command: (event) => {
           
             console.log(event.item)
-            this.$router.push('/Page')}
+            this.$router.push('/Check')}
                    
                    
                       },
@@ -98,10 +96,7 @@ export default {
                    
                       },
                       
-                {
-                  
-                   
-                }
+               
              ]
         }
     },
@@ -130,7 +125,7 @@ export default {
    .p-menuitem {
         padding:2px;
         border-radius: 25px;
-        margin:2px;
+        margin:1px;
         position: sticky;
       background:#eeecf0;
         border : 1px solid #eeecf0;
